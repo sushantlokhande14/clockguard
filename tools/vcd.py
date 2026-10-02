@@ -44,14 +44,14 @@ def read(path, wanted):
 def svg(signals, order, t0, t1, marks=(), labels=None, unit_ns=0.001):
     """Draw signals between t0 and t1 (file units); `marks` are (time, text)."""
     e = html.escape
-    lw, ww, rh = 190, 760, 26
-    h = rh * (len(order) + 1) + 10
+    lw, ww, rh, top = 190, 760, 26, 18  # marker labels go in the top strip
+    h = top + rh * (len(order) + 1) + 4
     x = lambda t: lw + (t - t0) * ww / max(1, t1 - t0)  # noqa: E731
     p = [f"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {lw + ww + 10} {h}' "
          f"font-family='monospace' font-size='11'>",
          f"<rect width='100%' height='100%' fill='#fff'/>"]
     for k, name in enumerate(order):
-        y = 6 + k * rh
+        y = top + 6 + k * rh
         label = (labels or {}).get(name, name)
         p.append(f"<text x='4' y='{y + 15}' fill='#1d2330'>{e(label[-26:])}</text>")
         width, ch = signals.get(name, (1, []))
@@ -82,9 +82,11 @@ def svg(signals, order, t0, t1, marks=(), labels=None, unit_ns=0.001):
                     p.append(f"<text x='{xa + 6:.1f}' y='{y + 15}' fill='#1d2330'>{e(text)}</text>")
     for tm, text in marks:
         if t0 <= tm <= t1:
-            p.append(f"<line x1='{x(tm):.1f}' y1='2' x2='{x(tm):.1f}' y2='{h - 14}' stroke='#c0392b' "
+            p.append(f"<line x1='{x(tm):.1f}' y1='{top - 2}' x2='{x(tm):.1f}' y2='{h - 14}' stroke='#c0392b' "
                      f"stroke-dasharray='4 3'/>")
-            p.append(f"<text x='{x(tm) + 4:.1f}' y='{h - 3}' fill='#c0392b'>{e(text)}</text>")
+            right = x(tm) > lw + ww * 0.55  # keep long labels inside the picture
+            p.append(f"<text x='{x(tm) + (-4 if right else 4):.1f}' y='12' fill='#c0392b' "
+                     f"text-anchor='{'end' if right else 'start'}'>{e(text)}</text>")
     span = (t1 - t0) * unit_ns
     p.append(f"<text x='{lw}' y='{h - 3}' fill='#5f6b7a'>{t0 * unit_ns:.2f} ns</text>")
     p.append(f"<text x='{lw + ww - 70}' y='{h - 3}' fill='#5f6b7a'>+{span:.1f} ns</text>")
