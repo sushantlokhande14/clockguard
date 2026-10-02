@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        flags: ["", "-fsanitize=address,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer"]
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y yosys iverilog nlohmann-json3-dev ninja-build
+      - run: cmake -S . -B build -G Ninja -DCMAKE_CXX_FLAGS="${{ matrix.flags }}"
+      - run: cmake --build build
+      - run: ctest --test-dir build --output-on-failure
+
+  bench-smoke:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y yosys iverilog nlohmann-json3-dev ninja-build
+      - run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build
+      - run: python3 tools/gen.py --clean 20 --per-bug 2 --seed 9 --out bench/designs
+      - run: python3 tools/bench.py --designs bench/designs --engine build/cg_engine --jobs 4 --sim --sim-ns 10000
+      - run: python3 clockguard.py designs/bad/cdc_bus.v designs/lib/blocks.v --top cdc_bus --sim out --html out/report.html || test $? -eq 1
