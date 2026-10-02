@@ -27,6 +27,6 @@ module tb;
   realtime t_rel = -1e9;
   always @(rst_n) if (rst_n === 1'b1) t_rel = $realtime;
   always @(posedge clk) begin dt = $realtime - t_rel; if (dt > 0 && dt < 0.5) hazard(dt); end
-  initial begin $dumpfile("docs/example/rst_unsync/v00_rst_unsync.vcd"); $dumpvars(0, tb.clk, tb.rst_n); end
+  initial begin $dumpfile("docs/example/rst_unsync/v00_rst_unsync.vcd"); $dumpvars(0, tb.clk, tb.rst_n, tb.q); end
   initial begin #20000; $display("CG_DONE %0d %0.3f", hazards, first); $finish; end
 endmodule

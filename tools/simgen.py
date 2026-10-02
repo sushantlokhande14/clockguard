@@ -185,6 +185,8 @@ def testbench(v, rep, ports, top, cons, sim_ns, vcd_path):
     else:
         return None, "no targeted test for this rule"
 
+    if v.get("to") and "," not in v["to"]:  # show the register the violation is about
+        dumps.append(Ref(v["to"], ports))
     seen, uniq = set(), []
     for d in dumps:
         if d.ok and d.dump not in seen:
