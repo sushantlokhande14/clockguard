@@ -1,0 +1,11 @@
+clockguard: clk_gate_glitch
+  clocks:   clk (primary, 11 flop bits, gated by gclk)
+  reset:    rst_s_n (synchronizer for clk, 2 stage(s), from rst_n)
+  crossings: none
+
+error[CLK_GATE_GLITCH] en_q (clk) -> gclk (clk)
+  clock gate gclk: enable en_q comes from a posedge flop, so it changes while clk is high and can chop a clock pulse. Use a latch-based clock gate (latch transparent while clk is low)
+  path: en_q -> gclk
+  sim: observed 503 hazard(s); first at 95.00 ns (0.00 ns pulse), 5 clk cycles after reset release
+
+1 error(s), 0 warning(s), 0 waived

@@ -1,0 +1,94 @@
+<!doctype html><meta charset=utf-8><title>clockguard: cdc_bus</title><style>
+body{font:14px/1.45 system-ui,sans-serif;margin:24px auto;max-width:1100px;padding:0 16px;color:#1d2330;background:#fff}
+h1{font-size:22px}h2{font-size:17px;margin-top:28px;border-bottom:1px solid #e3e6ec;padding-bottom:4px}
+table{border-collapse:collapse;width:100%;margin:8px 0}td,th{border:1px solid #e3e6ec;padding:4px 8px;text-align:left}
+th{background:#f5f7fa}code{background:#f5f7fa;padding:1px 4px;border-radius:3px}
+.v{border:1px solid #e3e6ec;border-left:4px solid #c0392b;border-radius:4px;padding:8px 12px;margin:12px 0}
+.v.warning{border-left-color:#d68910}.v.waived{border-left-color:#7f8c8d}
+.tag{font-weight:600}.muted{color:#5f6b7a}svg{max-width:100%;height:auto}
+</style>
+<h1>clockguard: cdc_bus</h1>
+<p>1 error(s), 0 warning(s), 0 waived &middot; 16 flop bits, 2 domain(s), 1 synchronizer(s)</p>
+<h2>Clock domains</h2>
+<table><tr><th>domain</th><th>kind</th><th>group</th><th>flop bits</th><th>posedge / negedge</th><th>gated by</th></tr><tr><td>clk_a</td><td>primary</td><td>0</td><td>6</td><td>6 / 0</td><td>-</td></tr><tr><td>clk_b</td><td>primary</td><td>1</td><td>10</td><td>10 / 0</td><td>-</td></tr></table>
+<h2>Resets</h2>
+<table><tr><th>reset</th><th>kind</th><th>stages</th><th>synchronous to</th><th>from</th><th>consumers</th></tr><tr><td>rst_n</td><td>input</td><td>-</td><td>-</td><td>rst_n</td><td>clk_a: 2, clk_b: 2</td></tr><tr><td>rst_a_n</td><td>synchronizer</td><td>2</td><td>clk_a</td><td>rst_n</td><td>clk_a: 4</td></tr><tr><td>rst_b_n</td><td>synchronizer</td><td>2</td><td>clk_b</td><td>rst_n</td><td>clk_b: 8</td></tr></table>
+<h2>Synchronizers</h2>
+<table><tr><th>from</th><th>to</th><th>bits</th><th>stages</th><th>kind</th></tr><tr><td>count_a (clk_a)</td><td>u_sync.s1 (clk_b)</td><td>4</td><td>2</td><td>bus</td></tr></table>
+<h2>Crossings</h2>
+<table><tr><th>from</th><th>to</th><th>bits</th><th>status</th></tr><tr><td>count_a (clk_a)</td><td>u_sync.s1 (clk_b)</td><td>4</td><td>synchronized</td></tr></table>
+<h2>Violations</h2>
+<div class='v error'><div><span class=tag>error[CDC_BUS]</span> <code>count_a (clk_a) -&gt; u_sync.s1 (clk_b)</code></div><p>count_a (4 bits, clk_a) is synchronized bit by bit into u_sync.s1 (clk_b); bits that change together can land in different cycles and give a value that never existed. Gray-code it so one bit changes at a time, or use a handshake or an async FIFO</p><p class=muted>path: <code>count_a[0] -&gt; u_sync.s1[0]</code></p><p class=muted>debug scope: 2 net(s) on the path, 11 in the fan-in cone</p><p>simulation: observed 69 hazard(s); first at 275.12 ns (2 bits changed inside one 0.5 ns capture window), 32 clk_b cycles after reset release</p><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 166' font-family='monospace' font-size='11'>
+<rect width='100%' height='100%' fill='#fff'/>
+<text x='4' y='21' fill='#1d2330'>clk_a</text>
+<line x1='190.0' y1='10' x2='260.8' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='260.8' y1='10' x2='260.8' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='260.8' y1='24' x2='347.6' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='347.6' y1='10' x2='347.6' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='347.6' y1='10' x2='434.3' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='434.3' y1='10' x2='434.3' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='434.3' y1='24' x2='521.1' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='521.1' y1='10' x2='521.1' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='521.1' y1='10' x2='607.8' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='607.8' y1='10' x2='607.8' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='607.8' y1='24' x2='694.6' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='694.6' y1='10' x2='694.6' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='694.6' y1='10' x2='781.3' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='781.3' y1='10' x2='781.3' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='781.3' y1='24' x2='868.1' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='868.1' y1='10' x2='868.1' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='868.1' y1='10' x2='950.0' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<text x='4' y='47' fill='#1d2330'>clk_b</text>
+<line x1='190.0' y1='36' x2='253.3' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='253.3' y1='36' x2='253.3' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='253.3' y1='50' x2='316.7' y2='50' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='316.7' y1='36' x2='316.7' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='316.7' y1='36' x2='380.0' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='380.0' y1='36' x2='380.0' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='380.0' y1='50' x2='443.3' y2='50' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='443.3' y1='36' x2='443.3' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='443.3' y1='36' x2='506.7' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='506.7' y1='36' x2='506.7' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='506.7' y1='50' x2='570.0' y2='50' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='570.0' y1='36' x2='570.0' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='570.0' y1='36' x2='633.3' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='633.3' y1='36' x2='633.3' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='633.3' y1='50' x2='696.7' y2='50' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='696.7' y1='36' x2='696.7' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='696.7' y1='36' x2='760.0' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='760.0' y1='36' x2='760.0' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='760.0' y1='50' x2='823.3' y2='50' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='823.3' y1='36' x2='823.3' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='823.3' y1='36' x2='886.7' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='886.7' y1='36' x2='886.7' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='886.7' y1='50' x2='950.0' y2='50' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='950.0' y1='36' x2='950.0' y2='50' stroke='#1f6feb' stroke-width='1'/>
+<line x1='950.0' y1='36' x2='950.0' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<text x='4' y='73' fill='#1d2330'>rst_n</text>
+<line x1='190.0' y1='62' x2='950.0' y2='62' stroke='#1f6feb' stroke-width='1.5'/>
+<text x='4' y='99' fill='#1d2330'>count_a</text>
+<polygon points='192.0,95 194.0,88 343.6,88 345.6,95 343.6,102 194.0,102' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='196.0' y='99' fill='#1d2330'>3</text>
+<polygon points='349.6,95 351.6,88 517.1,88 519.1,95 517.1,102 351.6,102' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='353.6' y='99' fill='#1d2330'>4</text>
+<polygon points='523.1,95 525.1,88 690.6,88 692.6,95 690.6,102 525.1,102' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='527.1' y='99' fill='#1d2330'>5</text>
+<polygon points='696.6,95 698.6,88 864.1,88 866.1,95 864.1,102 698.6,102' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='700.6' y='99' fill='#1d2330'>6</text>
+<polygon points='870.1,95 872.1,88 946.0,88 948.0,95 946.0,102 872.1,102' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='874.1' y='99' fill='#1d2330'>7</text>
+<text x='4' y='125' fill='#1d2330'>u_sync.s1</text>
+<polygon points='192.0,121 194.0,114 439.3,114 441.3,121 439.3,128 194.0,128' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='196.0' y='125' fill='#1d2330'>3</text>
+<polygon points='445.3,121 447.3,114 566.0,114 568.0,121 566.0,128 447.3,128' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='449.3' y='125' fill='#1d2330'>4</text>
+<polygon points='572.0,121 574.0,114 692.7,114 694.7,121 692.7,128 574.0,128' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='576.0' y='125' fill='#1d2330'>5</text>
+<polygon points='698.7,121 700.7,114 946.0,114 948.0,121 946.0,128 700.7,128' fill='#eef3fb' stroke='#1f6feb'/>
+<text x='702.7' y='125' fill='#1d2330'>6</text>
+<polygon points='952.0,121 954.0,114 946.0,114 948.0,121 946.0,128 954.0,128' fill='#eef3fb' stroke='#1f6feb'/>
+<line x1='696.7' y1='2' x2='696.7' y2='152' stroke='#c0392b' stroke-dasharray='4 3'/>
+<text x='700.7' y='163' fill='#c0392b'>275.12 ns: 2 bits changed inside one 0.5 ns capture window</text>
+<text x='190' y='163' fill='#5f6b7a'>245.92 ns</text>
+<text x='880' y='163' fill='#5f6b7a'>+43.8 ns</text>
+</svg></div>

@@ -1,0 +1,81 @@
+<!doctype html><meta charset=utf-8><title>clockguard: clk_gate_glitch</title><style>
+body{font:14px/1.45 system-ui,sans-serif;margin:24px auto;max-width:1100px;padding:0 16px;color:#1d2330;background:#fff}
+h1{font-size:22px}h2{font-size:17px;margin-top:28px;border-bottom:1px solid #e3e6ec;padding-bottom:4px}
+table{border-collapse:collapse;width:100%;margin:8px 0}td,th{border:1px solid #e3e6ec;padding:4px 8px;text-align:left}
+th{background:#f5f7fa}code{background:#f5f7fa;padding:1px 4px;border-radius:3px}
+.v{border:1px solid #e3e6ec;border-left:4px solid #c0392b;border-radius:4px;padding:8px 12px;margin:12px 0}
+.v.warning{border-left-color:#d68910}.v.waived{border-left-color:#7f8c8d}
+.tag{font-weight:600}.muted{color:#5f6b7a}svg{max-width:100%;height:auto}
+</style>
+<h1>clockguard: clk_gate_glitch</h1>
+<p>1 error(s), 0 warning(s), 0 waived &middot; 11 flop bits, 1 domain(s), 0 synchronizer(s)</p>
+<h2>Clock domains</h2>
+<table><tr><th>domain</th><th>kind</th><th>group</th><th>flop bits</th><th>posedge / negedge</th><th>gated by</th></tr><tr><td>clk</td><td>primary</td><td>0</td><td>11</td><td>11 / 0</td><td>gclk</td></tr></table>
+<h2>Resets</h2>
+<table><tr><th>reset</th><th>kind</th><th>stages</th><th>synchronous to</th><th>from</th><th>consumers</th></tr><tr><td>rst_n</td><td>input</td><td>-</td><td>-</td><td>rst_n</td><td>clk: 2</td></tr><tr><td>rst_s_n</td><td>synchronizer</td><td>2</td><td>clk</td><td>rst_n</td><td>clk: 9</td></tr></table>
+<h2>Synchronizers</h2>
+<table><tr><th>from</th><th>to</th><th>bits</th><th>stages</th><th>kind</th></tr></table>
+<h2>Crossings</h2>
+<table><tr><th>from</th><th>to</th><th>bits</th><th>status</th></tr></table>
+<h2>Violations</h2>
+<div class='v error'><div><span class=tag>error[CLK_GATE_GLITCH]</span> <code>en_q (clk) -&gt; gclk (clk)</code></div><p>clock gate gclk: enable en_q comes from a posedge flop, so it changes while clk is high and can chop a clock pulse. Use a latch-based clock gate (latch transparent while clk is low)</p><p class=muted>path: <code>en_q -&gt; gclk</code></p><p>simulation: observed 503 hazard(s); first at 95.00 ns (0.00 ns pulse), 5 clk cycles after reset release</p><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 140' font-family='monospace' font-size='11'>
+<rect width='100%' height='100%' fill='#fff'/>
+<text x='4' y='21' fill='#1d2330'>clk</text>
+<line x1='190.0' y1='10' x2='253.3' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='253.3' y1='10' x2='253.3' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='253.3' y1='24' x2='316.7' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='316.7' y1='10' x2='316.7' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='316.7' y1='10' x2='380.0' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='380.0' y1='10' x2='380.0' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='380.0' y1='24' x2='443.3' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='443.3' y1='10' x2='443.3' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='443.3' y1='10' x2='506.7' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='506.7' y1='10' x2='506.7' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='506.7' y1='24' x2='570.0' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='570.0' y1='10' x2='570.0' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='570.0' y1='10' x2='633.3' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='633.3' y1='10' x2='633.3' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='633.3' y1='24' x2='696.7' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='696.7' y1='10' x2='696.7' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='696.7' y1='10' x2='760.0' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='760.0' y1='10' x2='760.0' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='760.0' y1='24' x2='823.3' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='823.3' y1='10' x2='823.3' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='823.3' y1='10' x2='886.7' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='886.7' y1='10' x2='886.7' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='886.7' y1='24' x2='950.0' y2='24' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='950.0' y1='10' x2='950.0' y2='24' stroke='#1f6feb' stroke-width='1'/>
+<line x1='950.0' y1='10' x2='950.0' y2='10' stroke='#1f6feb' stroke-width='1.5'/>
+<text x='4' y='47' fill='#1d2330'>rst_n</text>
+<line x1='190.0' y1='36' x2='950.0' y2='36' stroke='#1f6feb' stroke-width='1.5'/>
+<text x='4' y='73' fill='#1d2330'>gclk</text>
+<line x1='190.0' y1='76' x2='443.3' y2='76' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='443.3' y1='62' x2='443.3' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='443.3' y1='62' x2='506.7' y2='62' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='506.7' y1='62' x2='506.7' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='506.7' y1='76' x2='570.0' y2='76' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='570.0' y1='62' x2='570.0' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='570.0' y1='62' x2='633.3' y2='62' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='633.3' y1='62' x2='633.3' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='633.3' y1='76' x2='696.7' y2='76' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='696.7' y1='62' x2='696.7' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='696.7' y1='76' x2='823.3' y2='76' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='823.3' y1='62' x2='823.3' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='823.3' y1='62' x2='886.7' y2='62' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='886.7' y1='62' x2='886.7' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='886.7' y1='76' x2='950.0' y2='76' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='950.0' y1='62' x2='950.0' y2='76' stroke='#1f6feb' stroke-width='1'/>
+<line x1='950.0' y1='62' x2='950.0' y2='62' stroke='#1f6feb' stroke-width='1.5'/>
+<text x='4' y='99' fill='#1d2330'>en_q</text>
+<line x1='190.0' y1='102' x2='443.3' y2='102' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='443.3' y1='88' x2='443.3' y2='102' stroke='#1f6feb' stroke-width='1'/>
+<line x1='443.3' y1='88' x2='696.7' y2='88' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='696.7' y1='88' x2='696.7' y2='102' stroke='#1f6feb' stroke-width='1'/>
+<line x1='696.7' y1='102' x2='823.3' y2='102' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='823.3' y1='88' x2='823.3' y2='102' stroke='#1f6feb' stroke-width='1'/>
+<line x1='823.3' y1='88' x2='950.0' y2='88' stroke='#1f6feb' stroke-width='1.5'/>
+<line x1='696.7' y1='2' x2='696.7' y2='126' stroke='#c0392b' stroke-dasharray='4 3'/>
+<text x='700.7' y='137' fill='#c0392b'>95.00 ns: 0.00 ns pulse</text>
+<text x='190' y='137' fill='#5f6b7a'>55.00 ns</text>
+<text x='880' y='137' fill='#5f6b7a'>+60.0 ns</text>
+</svg></div>

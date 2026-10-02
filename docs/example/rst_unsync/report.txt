@@ -1,0 +1,10 @@
+clockguard: rst_unsync
+  clocks:   clk (primary, 8 flop bits)
+  crossings: none
+
+error[RST_UNSYNC] rst_n -> q (clk)
+  8 flop bit(s) in clk (q...) are reset by input rst_n, which can release at any point of the clk cycle; some flops leave reset an edge before others (recovery/removal). Add a reset synchronizer clocked by clk (assert asynchronously, release through 2 flops)
+  path: rst_n -> q[0]
+  sim: observed 40 hazard(s); first at 285.00 ns (reset released 0.25 ns before the edge), 24 clk cycles after reset release
+
+1 error(s), 0 warning(s), 0 waived

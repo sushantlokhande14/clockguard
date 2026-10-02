@@ -1,0 +1,3308 @@
+{
+ "designs": 100,
+ "by_probe": {
+  "control_glitch": {
+   "probes": 71,
+   "quiet": 71,
+   "fired": 0,
+   "skipped": 0
+  },
+  "control_reset": {
+   "probes": 266,
+   "quiet": 266,
+   "fired": 0,
+   "skipped": 0
+  },
+  "control_bus": {
+   "probes": 132,
+   "quiet": 132,
+   "fired": 0,
+   "skipped": 0
+  }
+ },
+ "rows": [
+  {
+   "design": "d0000_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0000_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0000_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0000_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0000_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0000_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0000_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0001_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0001_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0001_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0001_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0001_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0001_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0002_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0002_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0002_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0002_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0002_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0002_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0003_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0003_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0003_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0003_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0003_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0003_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0004_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0004_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0004_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0004_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0005_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0005_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0005_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0005_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0005_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0006_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0006_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0007_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0008_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0008_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0008_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0008_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0008_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0009_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0009_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0009_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0009_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0010_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0010_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0010_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0010_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0010_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0010_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0011_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0011_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0011_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0011_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0012_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0013_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0014_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0014_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0014_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0014_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0015_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0015_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0016_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0016_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0016_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0016_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0017_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0017_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0017_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0017_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0017_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0018_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0019_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0019_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0020_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0020_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0021_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0021_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0021_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0021_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0022_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0022_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0023_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0024_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0024_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0024_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0024_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0025_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0025_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0025_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0025_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0025_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0025_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0026_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0026_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0026_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0026_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0027_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0027_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0027_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0027_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0027_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0027_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0028_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0029_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0030_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0030_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0030_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0031_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0032_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0032_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0032_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0032_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0032_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0033_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0033_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0033_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0034_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0035_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0035_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0035_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0035_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0035_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0036_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0036_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk1 cycles)"
+  },
+  {
+   "design": "d0036_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0036_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0036_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0037_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0037_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0037_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0038_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0038_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0038_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0039_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0039_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0039_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0039_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0039_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0040_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0041_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0041_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0041_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0041_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0041_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0041_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0042_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0042_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0042_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0042_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0043_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0043_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0044_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0044_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0044_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0045_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0045_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0045_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0046_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0046_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0046_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0046_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0046_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0047_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk2 cycles)"
+  },
+  {
+   "design": "d0047_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk2 cycles)"
+  },
+  {
+   "design": "d0048_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0048_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0048_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0048_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0049_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0049_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0049_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0049_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0049_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0049_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0050_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0050_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0050_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0050_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0051_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0051_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0051_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0051_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0051_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0052_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0052_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0052_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0052_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0052_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0052_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0053_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0054_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0054_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0055_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0055_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0055_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0056_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk2 cycles)"
+  },
+  {
+   "design": "d0056_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk3 cycles)"
+  },
+  {
+   "design": "d0057_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0057_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk1 cycles)"
+  },
+  {
+   "design": "d0057_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0057_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0058_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0059_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0059_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0059_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0059_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0059_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0060_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0060_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0060_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0060_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0061_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0061_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0061_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0062_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0063_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0063_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0063_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0063_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0063_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0064_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0065_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0065_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0065_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0065_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0065_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0066_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0066_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0066_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0066_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0067_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0068_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0068_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0068_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0069_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0069_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0069_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0069_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0069_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0069_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0070_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0071_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk1 cycles)"
+  },
+  {
+   "design": "d0071_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0071_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0071_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk2 cycles)"
+  },
+  {
+   "design": "d0071_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk3 cycles)"
+  },
+  {
+   "design": "d0072_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0072_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0072_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0073_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0074_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0074_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0074_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0075_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0076_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0076_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0077_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0077_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0077_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0078_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0078_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0078_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0078_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0078_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0079_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0079_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0079_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0080_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0081_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0081_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0081_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0082_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0082_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0082_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0082_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0083_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0083_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0083_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0083_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0083_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0083_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0084_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0084_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0084_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0084_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0085_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0085_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0086_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0086_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0086_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0086_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0086_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0087_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0087_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0087_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0087_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk1 cycles)"
+  },
+  {
+   "design": "d0087_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk2 cycles)"
+  },
+  {
+   "design": "d0088_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0088_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0088_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0089_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0089_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0089_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0089_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0089_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0090_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0090_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0091_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0091_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0091_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0092_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0092_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0092_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0093_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0093_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0093_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0093_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0093_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0093_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0094_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0094_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0094_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0094_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0094_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  },
+  {
+   "design": "d0095_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0095_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0095_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0095_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0095_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0096_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0096_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0096_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0096_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0096_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0097_clean",
+   "probe": "control_bus",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0098_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1994 clk0 cycles)"
+  },
+  {
+   "design": "d0098_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2732 clk1 cycles)"
+  },
+  {
+   "design": "d0098_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1522 clk2 cycles)"
+  },
+  {
+   "design": "d0098_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2241 clk3 cycles)"
+  },
+  {
+   "design": "d0099_clean",
+   "probe": "control_glitch",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0099_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (1995 clk0 cycles)"
+  },
+  {
+   "design": "d0099_clean",
+   "probe": "control_reset",
+   "status": "not observed",
+   "hazards": 0,
+   "summary": "not observed in 20 us (2734 clk1 cycles)"
+  }
+ ]
+}
