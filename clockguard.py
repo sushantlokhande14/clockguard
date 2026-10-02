@@ -171,7 +171,7 @@ def markdown_report(rep, sims=None):
         out += [f"### {tag}: {v['rule']}", "", f"`{where(v)}`", "", v["message"], ""]
         if v["path"]:
             out += [f"Path: `{short_path(v['path'])}`", ""]
-        if v.get("cone_nets"):
+        if v.get("cone_nets") and v["rule"].startswith("CDC_"):
             out += [f"Debug scope: {v['path_nets']} net(s) on the reported path, out of {v['cone_nets']} in the "
                     f"destination's fan-in cone.", ""]
         if "waived" in v:
@@ -235,7 +235,7 @@ def html_report(rep, sims=None):
              f"<p>{e(v['message'])}</p>"]
         if v["path"]:
             p.append(f"<p class=muted>path: <code>{e(short_path(v['path']))}</code></p>")
-        if v.get("cone_nets"):
+        if v.get("cone_nets") and v["rule"].startswith("CDC_"):
             p.append(f"<p class=muted>debug scope: {v['path_nets']} net(s) on the path, {v['cone_nets']} in the "
                      f"fan-in cone</p>")
         if "waived" in v:

@@ -63,7 +63,9 @@ def testbench(v, rep, ports, top, cons, sim_ns, vcd_path):
     edge = mon.get("edge", "posedge")
     dumps = [Ref(c, ports) for c in clocks] + [Ref(r, ports) for r in resets]
 
-    L = ["`timescale 1ns/1ps", "module tb;", "  integer seed = 7, hazards = 0, k, n;",
+    L = [f"// clockguard: targeted test for {v['rule']} ({v['from']} -> {v['to']})",
+         f"// monitor: {kind}, window {WINDOW} ns, prints CG_HAZARD <time> <detail> for each hit",
+         "`timescale 1ns/1ps", "module tb;", "  integer seed = 7, hazards = 0, k, n;",
          "  realtime first = -1, dt;"]
     for name, pj in ports.items():
         w = len(pj["bits"])
